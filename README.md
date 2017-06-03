@@ -1,8 +1,8 @@
 # Canvas Live Stream
 
 ### Screenshot:
-<img width="75%" src="https://image.prntscr.com/image/8a73c87ca2d747008c6a471dfaa2ee80.png" />
-<br/>
+<img width="65%" src="https://image.prntscr.com/image/8a73c87ca2d747008c6a471dfaa2ee80.png" />
+
 [**Left**] The live stream inside the browser<br/>
 [**Right**] The server and stream preview (can't be disabled due to a chromium bug)
 

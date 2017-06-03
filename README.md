@@ -8,7 +8,7 @@
 
 ### Description
 
-This is a experiment about the new ``canvas.captureStream`` and if it is already possible to create a canvas game stream server with it. I'm abusing [electron](https://github.com/electron/electron) to have the original api to the canvas and super easy setup, then just broadcasting it's stream into the client's video element.
+This is an experiment with the new ``canvas.captureStream`` and if it is already possible to create a canvas game stream server with it. I'm abusing [electron](https://github.com/electron/electron) to have the original api to the canvas + super easy setup, and then just broadcasting it's stream into the client's video element.
 
 **Conclusion**: It is still **very** experimental and has some quirky bugs here and there. Also the ``MediaStream`` api returns a blob, which is very slow to turn into a arraybuffer to send over with websockets. I'm not sure if this will ever change (or I'm doing it wrong). So all this is maybe possible in a near future, but not right now.
 
